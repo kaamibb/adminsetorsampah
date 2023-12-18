@@ -6,7 +6,7 @@ import { TrashIcon } from "@heroicons/react/solid";
 
 const getdata = async () => {
   try {
-    const res = await fetch("/api/data", {
+    const res = await fetch("https://adminsetorsampah.vercel.app/api/data", {
       cache: "no-store",
     });
 
