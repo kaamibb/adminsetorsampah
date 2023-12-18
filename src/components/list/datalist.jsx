@@ -45,7 +45,7 @@ const Datalist = () => {
 
     if (confirmed) {
       try {
-        const res = await fetch(`/api/data?email=${email}`, {
+        const res = await fetch(`https://adminsetorsampah.vercel.app/api/data?email=${email}`, {
           method: "DELETE",
         });
 
